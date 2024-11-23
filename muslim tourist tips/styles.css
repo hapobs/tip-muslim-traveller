@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+header {
+    background-color: #2980b9; /* Darker blue for contrast */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #1f639a; /* Slightly darker shade of blue for navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for contrast */
+    border: 3px solid #2980b9; /* Blue border for contrast */
+}
+
+h2 {
+    color: #2980b9;
+    text-align: center;
+    border-bottom: 3px solid #3498db; /* Thicker blue border for section titles */
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #1f639a; /* Darker color for subsection headers */
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #2980b9; /* Contrast blue for links */
+    text-decoration: none;
+}
+
+.tip {
+    margin-bottom: 20px;
+}
+
+/* Rate Us Section */
+.rating {
+    font-size: 2em;
+    text-align: center;
+}
+
+.star {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star:hover,
+.star.selected {
+    color: gold;
+}
+
+#rating-text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Contact Us Section */
+#contact ul {
+    padding-left: 20px;
+}
+
+#contact li {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f639a; /* Darker blue for footer */
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
